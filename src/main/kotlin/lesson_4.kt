@@ -10,14 +10,14 @@ fun main() {
         val comparisonResult: Boolean = userAge in AGE_OF_MAJORITY..RETIRMET_AGE
         var solutionText = ""
         if (comparisonResult == true) {
-            solutionText = "конечно"
+            solutionText = "конечноk"
         }
         else {
             solutionText = "нет"
         }
     }
 
-    println("Пользователю открыт доступ к ресурсу: $solutionText")
+//    println("Пользователю открыт доступ к ресурсу: $solutionText")
 }
 
 const val AGE_OF_MAJORITY = 18
